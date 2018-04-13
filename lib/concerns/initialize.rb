@@ -1,5 +1,5 @@
 module Initialize
   def initialize
-    @@songs << self
+    self.all << self
   end
 end
